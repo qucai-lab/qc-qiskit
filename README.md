@@ -117,8 +117,8 @@ By the end of this course, the learner will be able to:
     - Expectation value
   - Postulate 4 (Composite State)
 - [Evolution in Closed Quantum Systems](notebooks/quantum_mechanics/evol_in_close_qsystems.ipynb)
-  - Wave Mechanics formalism
-  - Matrix Mechanics formalism
+  - Wave Mechanics Formalism
+  - Matrix Mechanics Formalism
     - Schrödinger Picture (S-P)
     - Heisenberg Picture (H-P)
   - Density Matrix Formalism
@@ -178,6 +178,8 @@ By the end of this course, the learner will be able to:
     - Purity and Maximally Mixed States
   - [EPR Paradox](notebooks/quantum_information/06_epr.ipynb)
   - [CHSH Inequality](notebooks/quantum_information/06_chsh.ipynb)
+    - Introduction
+    - CHSH Violation
   - [CHSH Game](notebooks/quantum_information/06_chsh_game.ipynb)
   - [Bell Measurement and Applications](notebooks/quantum_information/06_bell_meas.ipynb)
     - Definition
@@ -191,32 +193,32 @@ By the end of this course, the learner will be able to:
     - Application in Teleportation
     - Application in Superdense Coding
   - [GHZ State](notebooks/quantum_information/06_ghz.ipynb)
-    - GHZ state
+    - GHZ State
     - GHZ-like State
   - [Entanglement Swapping](notebooks/quantum_information/06_ent_swapping.ipynb)
   - [Entanglement Monogamy](notebooks/quantum_information/06_ent_monogamy.ipynb)
-    - Contrast with the multipartite GHZ entangled state
-    - Contrast with the multipartite W entangled state
-    - Connection with the no-cloning theorem and QKD
+    - Contrast with the Multipartite GHZ Entangled State
+    - Contrast with the Multipartite W Entangled State
+    - Connection with the no-Cloning Theorem and QKD
 - [Trace Distance](notebooks/quantum_information/07_trace_distance.ipynb)
 - Noise
   - [Types of Noise](notebooks/quantum_information/08_types_of_noise.ipynb)
-    - Projection noise
-    - Measurement noise
-    - Coherent noise
-    - Incoherent noise
+    - Projection Noise
+    - Measurement Noise
+    - Coherent Noise
+    - Incoherent Noise
   - [Evolution in Open Quantum Systems](notebooks/quantum_information/10_evolution_in_open_quantum_systems.ipynb)
     - Unitary Representation
     - Stinespring Representation
     - Kraus Representation a.k.a Axiomatic Approach
     - Lindblad Master Equation Approach
   - [Quantum Channels](notebooks/quantum_information/11_quantum_channels.ipynb)
-    - Coherent error channel
-    - Depolarizing error channel
-    - Amplitude-damping channel
-    - Phase damping channel
-    - Phase-amplitude damping error channel
-    - Kraus error channel
+    - Coherent Error Channel
+    - Depolarizing Error Channel
+    - Amplitude-Damping Channel
+    - Phase Damping Channel
+    - Phase-Amplitude Damping Error Channel
+    - Kraus Error Channel
   - [State Purification](notebooks/quantum_information/12_state_purification.ipynb)
 
 </details>
@@ -229,9 +231,9 @@ By the end of this course, the learner will be able to:
 - [Hardware Platforms](notebooks/quantum_computing/hardware.pdf)
   - Circuit-based Superconducting Quantum Processors
 - Quantum Gates
-  - [Single-qubit Gates](notebooks/quantum_computing/single_qubit_gates.ipynb)
-  - [Two-qubit Gates](notebooks/quantum_computing/two_qubit_gates.ipynb)
-  - [Multi-qubit Gates](notebooks/quantum_computing/multi_qubit_gates.ipynb)
+  - [Single-Qubit Gates](notebooks/quantum_computing/single_qubit_gates.ipynb)
+  - [Two-Qubit Gates](notebooks/quantum_computing/two_qubit_gates.ipynb)
+  - [Multi-Qubit Gates](notebooks/quantum_computing/multi_qubit_gates.ipynb)
   - [Gate Decomposition](notebooks/quantum_computing/gate_decomposition.ipynb)
   - [Universal Gate Set](notebooks/quantum_computing/universal_gate_set.ipynb)
 - Quantum Circuits
