@@ -1,0 +1,38 @@
+#----- IDEs -----#
+
+# VS Code / PyCharm:
+.vscode/
+.idea/
+
+#----- Python -----#
+
+# Virtual environment folders:
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files:
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest:
+**/pytest_report.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+#----- Gitignore Cheat Sheet -----#
+
+# To ignore all files (located anywhere) with extension ".ext": *.ext
+# To ignore all files with extension ".ext" except the "filename.ext" file: !filename.ext
+# To ignore all directories named "dir" and all its contents: dir/
+# To ignore a "filename.ext" file located in the root directory: /filename.ext
+# To ignore any file (located anywhere) named "filename.ext": filename.ext
+# To ignore any file or directory named ".filename": .filename
+# To ignore all files and directories starting with "filename": filename*
+
+# git add -u # To update changes while ignoring untracked files.
+# git rm -r --cached .    # To remove already tracked files from Git cache.
+# git restore --staged .  # To unstage all changes.
+
+#------------------------------#
