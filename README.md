@@ -319,17 +319,20 @@ This work was sponsored by the [IBMQ Hub at NTU](https://quantum.ntu.edu.tw/).
 
 [1] Nielsen MA, Chuang IL. 2010. "Quantum Computation and Quantum Information." New York: [Cambridge Univ. Press.](https://doi.org/10.1017/CBO9780511976667) 10th Anniv. Ed.
 
-[2] [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+[2] Wolf, R. (2021). Quantum key distribution: An introduction with exercises. Publisher. https://doi.org/10.1007/978-3-030-73991-1\n
 
-[3] [Qiskit Documentation](https://docs.quantum.ibm.com/)
+[3] [IBM Quantum Learning](https://learning.quantum.ibm.com/)
 
-[4] [Qiskit v2.0 Migration Guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0)
+[4] [Qiskit Documentation](https://docs.quantum.ibm.com/)
 
-[5] [IBM Quantum Platform](https://quantum.cloud.ibm.com/)
+[5] [Qiskit v2.0 Migration Guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0)
+
+[6] [IBM Quantum Platform](https://quantum.cloud.ibm.com/)
 
 Complementary materials:
 
 - [Upcoming and past events](https://www.ibm.com/quantum/events)
+
 - [Qiskit Global Summer School (QGSS) 2025](https://github.com/qiskit-community/qgss-2025/tree/main)
 
 # License
