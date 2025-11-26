@@ -125,6 +125,7 @@
 <summary>Qiskit SDK</summary>
   
 - [Qiskit SDK Overview](notebooks/qiskit/qiskit_components.ipynb)
+- [Qiskit Operations](notebooks/qiskit/qiskit_operations.ipynb)
 
 </details>
 
@@ -144,6 +145,7 @@
   - Qutrit State
   - Composite Systems with Separable States
     - $n$-Qudit State
+    - 2-Qudit State
     - 2-Qubit State
     - 2-Qutrit State
 - [Density Operator Formalism](notebooks/quantum_information/dens_op_form.ipynb)
@@ -151,6 +153,7 @@
   - Properties
   - Bound for Purity
   - Spectral Decomposition
+  - Bipartite Systems
   - Python Implementation
 - [Bloch Sphere](notebooks/quantum_information/bloch_sphere.ipynb)
   - Introduction
@@ -235,7 +238,6 @@
 - Quantum Circuits
   - [Textbook Vs. Little-Endian Convention](notebooks/quantum_computing/conventions.ipynb)
   - [Measurement in a Different Basis](notebooks/quantum_computing/change_of_basis.ipynb)
-  - [Qiskit Operations](notebooks/quantum_computing/qiskit_operations.ipynb)
   - [Gate and Circuit Identities 1](notebooks/quantum_computing/gate_circuit_identities.ipynb)
   - [Gate and Circuit Identities 2](notebooks/quantum_computing/qc_identities.pdf)
 - [State Preparation](notebooks/quantum_computing/state_preparation.ipynb)
@@ -266,6 +268,7 @@
 <summary>Quantum Communication</summary>
   
 - Protocols
+  - [No-cloning Theorem](notebooks/quantum_communication/no_cloning.ipynb)
   - [Quantum Teleportation](notebooks/quantum_communication/teleportation.ipynb)
   - [Superdense Coding](notebooks/quantum_communication/superdense_coding.ipynb)
   - [BB84](notebooks/quantum_communication/bb84.ipynb)
