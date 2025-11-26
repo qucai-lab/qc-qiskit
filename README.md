@@ -265,15 +265,20 @@
 ---
 
 <details>
-<summary>Quantum Communication</summary>
+<summary>Quantum Communication and Cryptography</summary>
  
 - Theorems
   - [No-cloning Theorem](notebooks/quantum_communication/no_cloning.ipynb)
-- Quantum Protocols with Qiskit
+
+- Quantum Communication Protocols with Qiskit
   - [Quantum Teleportation](notebooks/quantum_communication/teleportation.ipynb)
   - [Superdense Coding](notebooks/quantum_communication/superdense_coding.ipynb)
+
+- Quantum Cryptography Protocols with Qiskit
   - [BB84](notebooks/quantum_communication/bb84.ipynb)
   - [Ekert 91](notebooks/quantum_communication/ekert91.ipynb)
+
+- Frameworks for QKD
   - [DI-QKD vs MDI-QKD](notebooks/quantum_communication/di_vs_mdi.ipynb)
     
 </details>
