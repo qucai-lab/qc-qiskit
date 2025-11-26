@@ -173,6 +173,9 @@
     - Qiskit Implementation
       - Bell states
       - Global measurement
+  - [GHZ State](notebooks/quantum_information/ghz.ipynb)
+    - GHZ State
+    - GHZ-like State
   - [EPR Paradox](notebooks/quantum_information/epr.ipynb)
   - [CHSH Inequality](notebooks/quantum_information/chsh.ipynb)
     - Introduction
@@ -191,9 +194,6 @@
       - Bell measurement on $|\psi^- \rangle$
     - Application in Teleportation
     - Application in Superdense Coding
-  - [GHZ State](notebooks/quantum_information/ghz.ipynb)
-    - GHZ State
-    - GHZ-like State
   - [Entanglement Swapping](notebooks/quantum_information/ent_swapping.ipynb)
   - [Entanglement Monogamy](notebooks/quantum_information/ent_monogamy.ipynb)
     - Contrast with the Multipartite GHZ Entangled State
