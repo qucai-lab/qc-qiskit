@@ -138,7 +138,7 @@
 - [Quantum Superposition](notebooks/quantum_information/superposition.ipynb)
   - Introduction
   - Mathematical Representation
-- [Multipartite States](notebooks/quantum_information/multipartite_states.ipynb)
+- [Multipartite Separable States](notebooks/quantum_information/multipartite_states.ipynb)
   - Introduction
   - Qudit State
   - Qubit State
@@ -161,7 +161,7 @@
   - Density Operator Approach
   - Plotting Pure and Mixed States with Qiskit
   - Python Implementation
-- Entanglement
+- Quantum Entanglement
   - [Introduction](notebooks/quantum_information/intro.ipynb)
   - [Multipartite Entangled States](notebooks/quantum_information/multipartite_ent_stat.ipynb)
     - Introduction
@@ -229,13 +229,13 @@
 
 - [Hardware Platforms](notebooks/quantum_computing/hardware.pdf)
   - Circuit-based Superconducting Quantum Processors
-- Quantum Gates
+- Quantum Gates with Qiskit
   - [Single-Qubit Gates](notebooks/quantum_computing/single_qubit_gates.ipynb)
   - [Two-Qubit Gates](notebooks/quantum_computing/two_qubit_gates.ipynb)
   - [Multi-Qubit Gates](notebooks/quantum_computing/multi_qubit_gates.ipynb)
   - [Gate Decomposition](notebooks/quantum_computing/gate_decomposition.ipynb)
   - [Universal Gate Set](notebooks/quantum_computing/universal_gate_set.ipynb)
-- Quantum Circuits
+- Quantum Circuits with Qiskit
   - [Textbook Vs. Little-Endian Convention](notebooks/quantum_computing/conventions.ipynb)
   - [Measurement in a Different Basis](notebooks/quantum_computing/change_of_basis.ipynb)
   - [Gate and Circuit Identities 1](notebooks/quantum_computing/gate_circuit_identities.ipynb)
@@ -245,7 +245,7 @@
   - Unitary Decomposition
   - Schmidt Decomposition
   - Qiskit Examples
-- Algorithms
+- Quantum Algorithms with Qiskit
   - [Deutsch](https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms/quantum-query-algorithms/deutsch-algorithm)
   - [Deutsch-Jozsa](https://quantum.cloud.ibm.com/learning/en/modules/computer-science/deutsch-jozsa)
   - [Grover's](notebooks/quantum_computing/grover.ipynb)
@@ -256,7 +256,7 @@
 - Quantum Machine Learning
   - [Quantum Support Vector Machine](notebooks/quantum_computing/qsvm.ipynb)
   - [Quantum Kernel Alignment](notebooks/quantum_computing/qka.ipynb)
-- Noise Reduction
+- Noise Reduction with Qiskit
   - [Simulating Circuits with Noise Channels](notebooks/quantum_computing/noisy_circuits.ipynb)
   - [Error Mitigation](notebooks/quantum_computing/error_mitigation.ipynb)
 
@@ -266,9 +266,10 @@
 
 <details>
 <summary>Quantum Communication</summary>
-  
-- Protocols
+ 
+- Theorems
   - [No-cloning Theorem](notebooks/quantum_communication/no_cloning.ipynb)
+- Quantum Protocols with Qiskit
   - [Quantum Teleportation](notebooks/quantum_communication/teleportation.ipynb)
   - [Superdense Coding](notebooks/quantum_communication/superdense_coding.ipynb)
   - [BB84](notebooks/quantum_communication/bb84.ipynb)
