@@ -290,9 +290,9 @@
 ---
 
 <details>
-<summary>Interview Questions</summary>
+<summary>Interview Preparation</summary>
   
-- [Quantum Computation and Information](notebooks/interview_questions/README.md)
+- [Interview Questions](notebooks/interview_questions/README.md)
   
 </details>
 

@@ -1,7 +1,16 @@
 <div align="center">
-  <h1><b> Interview Questions </b></h1>
-  <h2> Quantum Computation and Information </h2>
+  <h1><b> Interview Preparation </b></h1>
 </div>
+
+# Table of Contents
+
+- [Quantum Computing and Information](quantum-computing-and-information)
+- [Quantum Hardware](quantum-hardware)
+- [Quantum Machine Learning](quantum-machine-learning)
+
+---
+
+# Quantum Computing and Information
 
 - **What is quantum computing?**
 
@@ -88,9 +97,15 @@ i\hbar \frac{d}{dt}(\hat{U}(t) |\psi_0\rangle)=\hat{H}(\hat{U}(t) |\psi_0\rangle
 
 ---
 
+# Quantum Hardware
+
 - **Q: Willow chips exhibit exponential error suppression in logic qubits as the code size increases. What are the main physical factors currently limiting this suppression effectiveness? Are there any potential technological improvements at the material or circuit level that could further reduce the error threshold?** Reference: https://blog.google/technology/research/google-willow-quantum-chip/
 
   - Answer: The architecture (2D or 3D), qubit type (transon, fluxonium), topology (lattice-based, heavy-hex), and superconducting materials of the chip influence its sensitivity to noise. For example, flux-tunable transmons qubits are less sensitive to charge noise, but more sensitive to flux noise than fluxonium qubits operated at a sweet spot. Moreover, IBM's Heron chip uses the heavy-hexagonal lattice topology, which helps to decrease the zero-frequency collision in flux-tunable qubits and improve overall gate fidelity. While Google's Willow uses a square-grid layout. Reference: https://www.ibm.com/quantum/blog/heavy-hex-lattice. https://quantum.cloud.ibm.com/computers?processorType=Heron
+
+---
+
+# Quantum Machine Learning
 
 - **Q: In large language models, QKV computations using Transformer architectures consume significant energy. Is there an opportunity for a quantized Transformer architecture to effectively reduce energy consumption during the inference phase? What are the main bottlenecks in existing hybrid quantum-classical systems?**
 
