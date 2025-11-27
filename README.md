@@ -174,7 +174,11 @@
       - Bell states
       - Global measurement
   - [GHZ State](notebooks/quantum_information/ghz.ipynb)
-    - GHZ State
+    - The Maximally Entangled $n$-Qudit GHZ State
+    - Particular Cases
+      - $n$-qubit
+      - $n$-qutrit
+      - $3$-qubit 
     - GHZ-like State
   - [EPR Paradox](notebooks/quantum_information/epr.ipynb)
   - [CHSH Inequality](notebooks/quantum_information/chsh.ipynb)
