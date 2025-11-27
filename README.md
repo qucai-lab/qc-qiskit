@@ -292,7 +292,6 @@
 <details>
 <summary>Interview Questions</summary>
   
-- [Glossary](notebooks/interview_questions/glossary.ipynb)
 - [Quantum Computation and Information](notebooks/interview_questions/README.md)
   
 </details>
