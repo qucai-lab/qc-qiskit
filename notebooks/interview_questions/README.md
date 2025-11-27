@@ -58,11 +58,11 @@
 
 - **Q: "Are all quantum evolutions represented by Linear operators?"**
 
-  - Answer: yes! Quantum Mechanics is a Linear theory! Even quantum channels are described by linear CPTP maps. In general, a CPTP map is a superoperator (an operator acting on another operator). See [Open Quantum Systems](https://github.com/QuCAI-Lab/open-quantum-systems/blob/dev/notebooks/2_evol_in_open_qsystems.ipynb).
+  - Answer: yes! Quantum Mechanics is a Linear theory! Even quantum channels are described by linear CPTP maps. In general, a CPTP map is a superoperator (an operator acting on another operator).
 
 - **Q: "Are all quantum gates represented by Hermitian matrices?"**
 
-  - Answer: no! Examples of non-Hermitian quantum gates are: the [phase gate T](https://qiskit.org/documentation/stubs/qiskit.circuit.library.TGate.html), and the [phase gate S](https://qiskit.org/documentation/stubs/qiskit.circuit.library.SGate.html).
+  - Answer: no! Examples of non-Hermitian quantum gates are: the `phase gate T`, and the `phase gate S`.
 
 - **Q: "Are all quantum gates represented by Unitary matrices?"**
 
@@ -75,7 +75,7 @@
 $$\langle \psi|\hat{U}^{\dagger} \hat{U} |\psi\rangle = \langle \psi |\psi\rangle=|\psi|^2=\Bigg(\sum_{j=1}^{d=2^n}c_j|o_j\rangle \Bigg)^{\dagger}\Bigg(\sum_{k=1}^{d=2^n} c_k |o_k\rangle \Bigg)=\sum_{j,k=1}^{d=2^n} c_j^* c_k \langle o_j|o_k\rangle= \sum_{j,k=1}^{d=2^n} c_j^* c_k \delta_{jk} = \sum_{j=1}^{d=2^n}|c_j|^2=\sum_{j=1}^{d=2^n}Pr(o_j|\psi\rangle)=1. \\ \text{(Preserve the norm)}$$
 
 - **Q: "Are all quantum gates represented by Linear operators?"**
-  - Answer: yes! In [close quantum systems](https://github.com/QuCAI-Lab/open-quantum-systems/blob/dev/notebooks/1_evol_in_close_qsystems.ipynb), quantum gates perform quantum evolutions described by the Schrödinger equation that is a differential equation over a linear operator $\hat{U}$:
+  - Answer: yes! In close quantum systems, quantum gates perform quantum evolutions described by the Schrödinger equation that is a differential equation over a linear operator $\hat{U}$:
 
 \begin{equation}
 i\hbar \frac{d}{dt}(\hat{U}(t) |\psi_0\rangle)=\hat{H}(\hat{U}(t) |\psi_0\rangle).
@@ -89,7 +89,7 @@ i\hbar \frac{d}{dt}(\hat{U}(t) |\psi_0\rangle)=\hat{H}(\hat{U}(t) |\psi_0\rangle
 
 ---
 
-¹In noisy quantum systems, incoherent noise creates a mixed state, i.e, a probability distribution over pure states. Although a mixed state (see Ref. [1]) consists of an ensemble (statistical mixture) of $N$ pure states ($\{p_j, |\psi_j\rangle\}_{j=1}^n$), a mixed state cannot be represented by a linear combination of the aforementioned normalized state vectors (pure states) that are defined on a separable Hilbert Space. Therefore, the evolved mixed state must be represented by a [mixed density operator](https://qiskit.org/textbook/ch-quantum-hardware/density-matrix.html#:~:text=corrupted) rather than a statevector. Recall that coherent noise is described by unitary operations, while incoherent noise generates mixed states that are always random, regardless of the basis in which they are measured.
+¹In noisy quantum systems, incoherent noise creates a mixed state, i.e, a probability distribution over pure states. Although a mixed state (see Ref. [1]) consists of an ensemble (statistical mixture) of $N$ pure states ($\{p_j, |\psi_j\rangle\}_{j=1}^n$), a mixed state cannot be represented by a linear combination of the aforementioned normalized state vectors (pure states) that are defined on a separable Hilbert Space. Therefore, the evolved mixed state must be represented by a mixed density operator rather than a statevector. Recall that coherent noise is described by unitary operations, while incoherent noise generates mixed states that are always random, regardless of the basis in which they are measured.
 
 ²An open quantum system can be divided into two subsystems: the system of interest and the environment. The system of interest can be isolated after tracing out the environment from the global state of the system.
 

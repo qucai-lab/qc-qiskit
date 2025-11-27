@@ -70,7 +70,8 @@
 - [Hilbert Space](notebooks/algebra/hilbert_space.ipynb)
 - [Basis States](notebooks/algebra/basis.ipynb)
 
-- [Inner and Outer Product](notebooks/algebra/inner_product.ipynb)
+- [Inner Product](notebooks/algebra/inner_product.ipynb)
+- [Outer Product](notebooks/algebra/outer_product.ipynb)
 - [Kronecker Product](notebooks/algebra/kronecker_product.ipynb)
 
 - [Completeness Relation](notebooks/algebra/completeness_relation.ipynb)
