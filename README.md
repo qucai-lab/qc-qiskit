@@ -111,11 +111,13 @@
     - Projective measurement (a.k.a von Neumann measurement) and Born's rule
     - Expectation value
   - Postulate 4 (Composite State)
+
 - [Evolution in Closed Quantum Systems](notebooks/quantum_mechanics/evol_in_close_qsystems.ipynb)
   - Wave Mechanics Formalism
   - Matrix Mechanics Formalism
     - Schrödinger Picture (S-P)
     - Heisenberg Picture (H-P)
+    - Solution for the Schrödinger Equation 
   - Density Matrix Formalism
 
 </details>
@@ -176,7 +178,7 @@
       - Global measurement
   - [GHZ State](notebooks/quantum_information/ghz.ipynb)
     - The Maximally Entangled $n$-Qudit GHZ State
-    - Particular Cases
+    - Particular Cases with Qiskit
       - $n$-qubit
       - $n$-qutrit
       - $3$-qubit 
@@ -321,17 +323,21 @@ This work was sponsored by the [IBMQ Hub at NTU](https://quantum.ntu.edu.tw/).
 
 # References
 
-[1] Nielsen MA, Chuang IL. 2010. "Quantum Computation and Quantum Information." New York: [Cambridge Univ. Press.](https://doi.org/10.1017/CBO9780511976667) 10th Anniv. Ed.
+[1] Introduction to Quantum Mechanics: Griffiths, David J.
 
-[2] Wolf, R. (2021). Quantum key distribution: An introduction with exercises. Publisher. https://doi.org/10.1007/978-3-030-73991-1\n
+[2] Nielsen MA, Chuang IL. 2010. "Quantum Computation and Quantum Information." New York: [Cambridge Univ. Press.](https://doi.org/10.1017/CBO9780511976667) 10th Anniv. Ed.
 
-[3] [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+[3] M. M. Wilde, Quantum information theory (Cambridge University Press, 2013).
 
-[4] [Qiskit Documentation](https://docs.quantum.ibm.com/)
+[4] Wolf, R. (2021). Quantum key distribution: An introduction with exercises. Publisher. https://doi.org/10.1007/978-3-030-73991-1\n
 
-[5] [Qiskit v2.0 Migration Guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0)
+[5] [IBM Quantum Learning](https://learning.quantum.ibm.com/)
 
-[6] [IBM Quantum Platform](https://quantum.cloud.ibm.com/)
+[6] [Qiskit Documentation](https://docs.quantum.ibm.com/)
+
+[7] [Qiskit v2.0 Migration Guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0)
+
+[8] [IBM Quantum Platform](https://quantum.cloud.ibm.com/)
 
 Complementary materials:
 
