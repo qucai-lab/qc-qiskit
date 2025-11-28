@@ -72,8 +72,6 @@
 - [Kronecker Product](notebooks/algebra/kronecker_product.ipynb)
 
 - [Hilbert Space](notebooks/algebra/hilbert_space.ipynb)
-  - Single States
-  - Composite States
 - [Basis States](notebooks/algebra/basis.ipynb)
 
 - [Linear Operators](notebooks/algebra/linear_operator.ipynb)
