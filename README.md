@@ -65,28 +65,27 @@
 <summary>Linear Algebra</summary>
 
 - [Complex Numbers](notebooks/algebra/complex_numbers.ipynb)
-
 - [Dirac Notation](notebooks/algebra/dirac.ipynb)
-- [Hilbert Space](notebooks/algebra/hilbert_space.ipynb)
-- [Basis States](notebooks/algebra/basis.ipynb)
 
+- [Vector Spaces](notebooks/algebra/vector_spaces.ipynb)
 - [Inner Product](notebooks/algebra/inner_product.ipynb)
-- [Outer Product](notebooks/algebra/outer_product.ipynb)
 - [Kronecker Product](notebooks/algebra/kronecker_product.ipynb)
 
-- [Completeness Relation](notebooks/algebra/completeness_relation.ipynb)
-- [Linear Operator](notebooks/algebra/linear_operator.ipynb)
-- [Hermitian Operator](notebooks/algebra/hermitian_operator.ipynb)
-- [Positive Operator](notebooks/algebra/positive_operator.ipynb)
+- [Hilbert Space](notebooks/algebra/hilbert_space.ipynb)
+  - Single States
+  - Composite States
+- [Basis States](notebooks/algebra/basis.ipynb)
 
-- [Pauli Group](notebooks/algebra/pauli_group.ipynb)
-- [Clifford Group](notebooks/algebra/clifford_group.ipynb)
+- [Linear Operators](notebooks/algebra/linear_operator.ipynb)
+- [Hermitian Operators](notebooks/algebra/hermitian_operator.ipynb)
+- [Positive Operators](notebooks/algebra/positive_operator.ipynb)
 
+- [Outer Product](notebooks/algebra/outer_product.ipynb)
 - [Spectral Decomposition](notebooks/algebra/spectral_decomposition.ipynb)
+- [Completeness Relation](notebooks/algebra/completeness_relation.ipynb)
 
 - [Trace Function](notebooks/algebra/trace_function.ipynb)
 - [Partial Trace](notebooks/algebra/partial_trace.ipynb)
-
   - Definition
   - Applications
   - Examples
@@ -94,6 +93,9 @@
     - Outer product representation for bipartite states
     - Measurement in a bipartite system
   - Python Implementation
+
+- [Pauli Group](notebooks/algebra/pauli_group.ipynb)
+- [Clifford Group](notebooks/algebra/clifford_group.ipynb)
 
 - [Useful Linear Algebra Identities](notebooks/algebra/linear_algebra_identities.ipynb)
 
