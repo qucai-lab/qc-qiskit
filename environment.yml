@@ -1,0 +1,42 @@
+name: qc-qiskit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11
+  - watermark==2.5.0
+  - matplotlib==3.10.7
+  - pylatexenc==2.10 # The 'pylatexenc' library is required to use 'MatplotlibDrawer'.
+  - numpy==1.26
+  - scipy==1.16.3
+  - sympy==1.14.0
+  - jupyter==1.1.1
+  - qiskit==2.2.3
+  - qiskit-aer==0.17.2
+  #- qiskit-dynamics==0.6.0
+  - qiskit-algorithms==0.4.0
+  - qiskit-ibm-runtime==0.43.1
+  - openfermion==1.7.1
+  - openfermionpyscf==0.5
+  - pip
+  - pip:
+      #- qiskit-aer==0.17.2
+      - qiskit-nature[pyscf]==0.7.2
+# Command-line Interface (CLI) shortcuts:
+
+# Create env.: conda env create -f environment.yml
+
+# Activate env.: conda activate <env_name>
+
+# Update env.: conda env update -f environment.yml --prune
+
+# Remove env.: conda remove -yn <env_name> --all
+
+# List all env.: conda env list
+
+# Show env. info: conda info
+
+# Show installed packages: conda list
+
+# List a package info: conda list <package_name>
+# ==============================================
