@@ -359,9 +359,9 @@
   - [ADAPT-VQE](notebooks/quantum_computing/adapt_vqe.ipynb)
   - [Quantum phase estimation (QPE)](notebooks/quantum_computing/qpe.ipynb)
 
-- Noise Reduction
-  - [Error Mitigation](notebooks/quantum_computing/error_mitigation.ipynb)
-  - [Error Correction](notebooks/quantum_computing/error_correction.ipynb)
+- [Error Mitigation](notebooks/quantum_computing/error_mitigation.ipynb)
+
+- [Error Correction](notebooks/quantum_computing/error_correction.ipynb)
 
 </details>
 
