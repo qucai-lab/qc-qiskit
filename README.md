@@ -1,4 +1,5 @@
 <!-- Logos -->
+
 <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/camponogaraviera/logos/blob/main/assets/python.png" width="120"></a>
 <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/camponogaraviera/logos/blob/main/assets/numpy.svg" width="40"></a>
 <a href="https://matplotlib.org" target="_blank" rel="noopener noreferrer"><img src="https://github.com/camponogaraviera/logos/blob/main/assets/matplotlib.svg" width="145"></a>
@@ -8,16 +9,18 @@
 <a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer"></a>
 &nbsp;
 <a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer">
-  <picture>
-    <!-- dark mode -->
-    <source srcset="https://github.com/camponogaraviera/logos/blob/main/assets/qiskit_white.png" width="40" alt="Light Logo">
-    <!-- light mode -->
-    <img src="https://github.com/camponogaraviera/logos/blob/main/assets/qiskit_black.png" width="40" alt="Dark Logo">
-  </picture>
+<picture>
+
+<!-- dark mode -->
+<source srcset="https://github.com/camponogaraviera/logos/blob/main/assets/qiskit_white.png" width="40" alt="Light Logo">
+<!-- light mode -->
+<img src="https://github.com/camponogaraviera/logos/blob/main/assets/qiskit_black.png" width="40" alt="Dark Logo">
+</picture>
 </a>
 <br>
 
 <!-- Badges -->
+
 [![Python](https://img.shields.io/badge/Python-3.11.0-informational)](https://www.python.org/downloads/source/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-2.2.3-informational)](https://github.com/Qiskit/qiskit)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange?style=flat-square)](https://github.com/qucai-lab/qiskit/pulls)
@@ -42,7 +45,6 @@
 <summary>Tooling and Version Control</summary>
 
 - Version Control:
-
   - [SemVer](https://github.com/camponogaraviera/nvm-npm-yarn?tab=readme-ov-file#semantic-versioning-semver)
   - [Git](https://github.com/camponogaraviera/linux-git-conda/blob/dev/github_essentials/README.md)
 
@@ -74,7 +76,6 @@
   - Python Implementation
 
 - [Kronecker Product](notebooks/algebra/kronecker_product.ipynb)
-
   - Definition
   - Properties
   - Applications
@@ -86,12 +87,19 @@
   - Composite Spaces
 
 - [Basis States](notebooks/algebra/basis.ipynb)
-
   - $Z$-basis
   - $X$-basis
   - $Y$-basis
   - $H$-basis
   - Bell-basis
+
+- [Unitary Operators](notebooks/algebra/unitary_operator.ipynb)
+  - Definition
+  - Examples
+
+- [Normal Operators](notebooks/algebra/normal_operator.ipynb)
+  - Definition
+  - Examples
 
 - [Linear Operators](notebooks/algebra/linear_operator.ipynb)
   - Definition
@@ -106,7 +114,6 @@
   - Applications
 
 - [Positive Operators](notebooks/algebra/positive_operator.ipynb)
-
   - Definition
   - Properties
   - Applications
@@ -119,8 +126,18 @@
 
 - [Spectral Decomposition](notebooks/algebra/spectral_decomposition.ipynb)
   - Definition
-  - Operator Function
   - Examples
+
+- [Operator and Matrix functions](notebooks/algebra/operator_matrix_functions.ipynb)
+  - Operator Function
+    - SQRT(A)
+    - ln(A)
+    - exp(A)
+      - Gibbs Thermal State
+    - Zassenhaus Formula
+    - Trotter-Suzuki Formula
+  - Matrix Function
+    - Baker-Campbell-Hausdorff Formula
 
 - [Completeness Relation](notebooks/algebra/completeness_relation.ipynb)
   - Definition
@@ -137,7 +154,6 @@
   - Definition
 
 - [Partial Trace](notebooks/algebra/partial_trace.ipynb)
-
   - Definition
   - Applications
   - Examples
@@ -155,7 +171,6 @@
   - Pauli Group
 
 - [Clifford Group](notebooks/algebra/clifford_group.ipynb)
-
   - Clifford Group
   - Clifford Gates
 
@@ -169,7 +184,6 @@
 <summary>Quantum Mechanics Fundamentals</summary>
 
 - [The Postulates of Quantum Mechanics](notebooks/quantum_mechanics/postulates.ipynb)
-
   - Introduction
   - State Postulate
     - State Vector
@@ -207,7 +221,7 @@
 - [Qiskit Operations](notebooks/qiskit/qiskit_operations.ipynb)
   - Measurement Operation
   - Reset Operation
-  - Barrier Operation 
+  - Barrier Operation
   - Delay Operation
 
 </details>
@@ -247,6 +261,8 @@
   - Density Operator Approach
   - Plotting Pure and Mixed States with Qiskit
   - Python Implementation
+
+- [State Purification](notebooks/quantum_information/state_purification.ipynb)
 
 - [State Preparation](notebooks/quantum_information/state_preparation.ipynb)
   - Introduction
@@ -321,7 +337,6 @@
     - Phase Damping Channel
     - Phase-Amplitude Damping Error Channel
     - Kraus Error Channel
-  - [State Purification](notebooks/quantum_information/state_purification.ipynb)
 
 </details>
 
@@ -348,20 +363,18 @@
 
 - Classical Algorithms
   - [Density Matrix Renormalization Group (DMRG)](notebooks/quantum_computing/dmrg.ipynb)
-     
+
 - Quantum Algorithms
   - Deutsch
   - Deutsch-Jozsa
   - [Grover's](notebooks/quantum_computing/grover.ipynb)
+  - [Quantum phase estimation (QPE)](notebooks/quantum_computing/qpe.ipynb)
   - Shor's
   - [Trotterization](notebooks/quantum_computing/trotterization.ipynb)
   - [Variational Quantum Eigensolver (VQE)](notebooks/quantum_computing/vqe.ipynb)
   - [ADAPT-VQE](notebooks/quantum_computing/adapt_vqe.ipynb)
-  - [Quantum phase estimation (QPE)](notebooks/quantum_computing/qpe.ipynb)
 
 - [Error Mitigation](notebooks/quantum_computing/error_mitigation.ipynb)
-
-- [Error Correction](notebooks/quantum_computing/error_correction.ipynb)
 
 </details>
 
@@ -379,7 +392,6 @@
     - Example
 
 - Quantum Communication Protocols
-
   - [Quantum Teleportation](notebooks/quantum_communication/teleportation.ipynb)
     - Theory
     - Applications
@@ -387,7 +399,6 @@
   - [Superdense Coding](notebooks/quantum_communication/superdense_coding.ipynb)
 
 - Quantum Cryptography Protocols
-
   - [BB84](notebooks/quantum_communication/bb84.ipynb)
   - [Ekert 91](notebooks/quantum_communication/ekert91.ipynb)
 
@@ -399,9 +410,9 @@
 ---
 
 <details>
-<summary>Interview Preparation</summary>
+<summary>Q&A</summary>
   
-- [Interview Questions](notebooks/interview_questions/README.md)
+- [Q&A](notebooks/interview_questions/README.md)
   
 </details>
 
