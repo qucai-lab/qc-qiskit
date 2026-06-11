@@ -73,6 +73,8 @@
   - Properties
   - Applications
   - Examples
+    - Standard Inner Product of Vectors
+    - Hilbert-Schmidt Inner Product
   - Python Implementation
 
 - [Kronecker Product](notebooks/algebra/kronecker_product.ipynb)
@@ -130,12 +132,14 @@
 
 - [Operator and Matrix functions](notebooks/algebra/operator_matrix_functions.ipynb)
   - Operator Function
-    - SQRT(A)
-    - ln(A)
-    - exp(A)
-      - Gibbs Thermal State
-    - Zassenhaus Formula
-    - Trotter-Suzuki Formula
+    - Definition
+    - Examples
+      - SQRT(A)
+      - ln(A)
+      - exp(A)
+        - Gibbs Thermal State
+      - Zassenhaus Formula
+      - Trotter-Suzuki Formula
   - Matrix Function
     - Baker-Campbell-Hausdorff Formula
 
@@ -270,34 +274,34 @@
   - Qiskit Examples
 
 - Entanglement
-  - [Introduction](notebooks/quantum_information/intro.ipynb)
-  - [Multipartite Entangled States](notebooks/quantum_information/multipartite_ent_stat.ipynb)
+  - [Introduction](notebooks/quantum_information/entanglement/intro.ipynb)
+  - [Multipartite Entangled States](notebooks/quantum_information/entanglement/multipartite_ent_stat.ipynb)
     - Introduction
     - Separable vs Entangled States
     - Bipartite Maximally Entangled Qudit States
     - Pure Entangled States with Maximally Mixed Subsystems
-  - [Bell States](notebooks/quantum_information/bell_states.ipynb)
+  - [Bell States](notebooks/quantum_information/entanglement/bell_states.ipynb)
     - The Four Maximally Entangled 2-Qubit States
     - Qiskit Implementation
       - Bell states
       - Global measurement
-  - [GHZ State](notebooks/quantum_information/ghz.ipynb)
+  - [GHZ State](notebooks/quantum_information/entanglement/ghz.ipynb)
     - The Maximally Entangled $n$-Qudit GHZ State
     - Particular Cases with Qiskit
       - $n$-qubit
       - $3$-qubit
       - $n$-qutrit
     - GHZ-like State
-  - [EPR Paradox](notebooks/quantum_information/epr.ipynb)
+  - [EPR Paradox](notebooks/quantum_information/entanglement/epr.ipynb)
     - EPR Hypothesis
     - EPR Argument
-  - [CHSH Inequality](notebooks/quantum_information/chsh.ipynb)
+  - [CHSH Inequality](notebooks/quantum_information/entanglement/chsh.ipynb)
     - Introduction
     - CHSH Violation
-  - [CHSH Game](notebooks/quantum_information/chsh_game.ipynb)
+  - [CHSH Game](notebooks/quantum_information/entanglement/chsh_game.ipynb)
     - Theory
     - Qiskit Implementation
-  - [Bell Measurement and Applications](notebooks/quantum_information/bell_meas.ipynb)
+  - [Bell Measurement and Applications](notebooks/quantum_information/entanglement/bell_meas.ipynb)
     - Definition
     - Qiskit Implementation
       - Bell states
@@ -310,27 +314,34 @@
       - Entanglement Swapping
       - Quantum Teleportation
       - Superdense Coding
-  - [Entanglement Swapping](notebooks/quantum_information/ent_swapping.ipynb)
-  - [Entanglement Monogamy](notebooks/quantum_information/ent_monogamy.ipynb)
+  - [Entanglement Swapping](notebooks/quantum_information/entanglement/ent_swapping.ipynb)
+  - [Entanglement Monogamy](notebooks/quantum_information/entanglement/ent_monogamy.ipynb)
     - Definition
     - Does the GHZ State Violate Monogamy?
 
 - Distance Measurements
-  - [Trace Distance](notebooks/quantum_information/trace_distance.ipynb)
-  - [State Fidelity](notebooks/quantum_information/state_fidelity.ipynb)
+  - [P-norm Distance](notebooks/quantum_information/distance_measurements/pnorm_distance.ipynb)
+    - P-norm Distance
+    - Trace Distance
+    - Hilbert-Schmidt Distance
+    - Implementation
+
+  - [State Fidelity](notebooks/quantum_information/distance_measurements/state_fidelity.ipynb)
+    - Definition
+    - Implementation
 
 - Noise
-  - [Types of Noise](notebooks/quantum_information/types_of_noise.ipynb)
+  - [Types of Noise](notebooks/quantum_information/noise/types_of_noise.ipynb)
     - Projection Noise
     - Measurement Noise
     - Coherent Noise
     - Incoherent Noise
-  - [Evolution in Open Quantum Systems](notebooks/quantum_information/evolution_in_open_quantum_systems.ipynb)
+  - [Evolution in Open Quantum Systems](notebooks/quantum_information/noise/evolution_in_open_quantum_systems.ipynb)
     - Unitary Representation
     - Stinespring Representation
     - Kraus Representation a.k.a Axiomatic Approach
     - Lindblad Master Equation Approach
-  - [Quantum Channels](notebooks/quantum_information/quantum_channels.ipynb)
+  - [Quantum Channels](notebooks/quantum_information/noise/quantum_channels.ipynb)
     - Coherent Error Channel
     - Depolarizing Error Channel
     - Amplitude-Damping Channel
@@ -348,33 +359,52 @@
 - [Review on Statistics](notebooks/quantum_computing/statistics.ipynb)
 
 - Quantum Gates
-  - [Introduction](notebooks/quantum_computing/gates.ipynb)
-  - [Textbook Vs. Little-Endian Convention](notebooks/quantum_computing/conventions.ipynb)
-  - [Single-Qubit Gates](notebooks/quantum_computing/single_qubit_gates.ipynb)
-  - [Two-Qubit Gates](notebooks/quantum_computing/two_qubit_gates.ipynb)
-  - [Multi-Qubit Gates](notebooks/quantum_computing/multi_qubit_gates.ipynb)
-  - [Gate Decomposition](notebooks/quantum_computing/gate_decomposition.ipynb)
-  - [Universal Gate Set](notebooks/quantum_computing/universal_gate_set.ipynb)
+  - [Introduction](notebooks/quantum_computing/quantum_gates/gates.ipynb)
+  - [Textbook Vs. Little-Endian Convention](notebooks/quantum_computing/quantum_gates/conventions.ipynb)
+  - [Single-Qubit Gates](notebooks/quantum_computing/quantum_gates/single_qubit_gates.ipynb)
+  - [Two-Qubit Gates](notebooks/quantum_computing/quantum_gates/two_qubit_gates.ipynb)
+  - [Multi-Qubit Gates](notebooks/quantum_computing/quantum_gates/multi_qubit_gates.ipynb)
+  - [Universal Gate Set](notebooks/quantum_computing/quantum_gates/universal_gate_set.ipynb)
+  - [Implementations](notebooks/quantum_computing/quantum_gates/implementations.ipynb)
+
+- Operator Decompositions
+  - [Pauli Decomposition](notebooks/quantum_computing/operator_decomposition/pauli_decomposition.ipynb)
+  - [Operator Schmidt Decomposition](notebooks/quantum_computing/operator_decomposition/operator_schmidt_decomposition.ipynb)
+  - [Linear Combination of Unitaries (LCU)](notebooks/quantum_computing/operator_decomposition/lcu.ipynb)
+
+- [Unitary/Circuit Synthesis](notebooks/quantum_computing/circuit_synthesis/circuit_synthesis.ipynb)
+  - Introduction
+  - Controlled-unitary Decomposition
+  - KAK Decomposition
+  - Cosine-Sine Decomposition (CSD)
+  - Quantum Shannon Decomposition (QSD)
+  - Block ZXZ Decomposition
+
+- [Gate Decomposition](notebooks/quantum_computing/gate_decompositions/gate_decomposition.ipynb)
+  - Euler Decomposition
+    - Z-Y-Z Decomposition
+    - X-Y-X Decomposition
+    - V-Z Decomposition
 
 - Quantum Circuits
-  - [Measurement in a Different Basis](notebooks/quantum_computing/change_of_basis.ipynb)
-  - [Gate and Circuit Identities 1](notebooks/quantum_computing/gate_circuit_identities.ipynb)
-  - [Gate and Circuit Identities 2](notebooks/quantum_computing/qc_identities.pdf)
+  - [Measurement in a Different Basis](notebooks/quantum_computing/quantum_circuits/change_of_basis.ipynb)
+  - [Gate and Circuit Identities 1](notebooks/quantum_computing/quantum_circuits/gate_circuit_identities.ipynb)
+  - [Gate and Circuit Identities 2](notebooks/quantum_computing/quantum_circuits/qc_identities.pdf)
 
 - Classical Algorithms
-  - [Density Matrix Renormalization Group (DMRG)](notebooks/quantum_computing/dmrg.ipynb)
+  - [Density Matrix Renormalization Group (DMRG)](notebooks/quantum_computing/classical_algorithms/dmrg.ipynb)
 
 - Quantum Algorithms
   - Deutsch
   - Deutsch-Jozsa
-  - [Grover's](notebooks/quantum_computing/grover.ipynb)
-  - [Quantum phase estimation (QPE)](notebooks/quantum_computing/qpe.ipynb)
+  - [Grover's](notebooks/quantum_computing/quantum_algorithms/grover.ipynb)
+  - [Quantum phase estimation (QPE)](notebooks/quantum_computing/quantum_algorithms/qpe.ipynb)
   - Shor's
-  - [Trotterization](notebooks/quantum_computing/trotterization.ipynb)
-  - [Variational Quantum Eigensolver (VQE)](notebooks/quantum_computing/vqe.ipynb)
-  - [ADAPT-VQE](notebooks/quantum_computing/adapt_vqe.ipynb)
+  - [Trotterization](notebooks/quantum_computing/quantum_algorithms/trotterization.ipynb)
+  - [Variational Quantum Eigensolver (VQE)](notebooks/quantum_computing/quantum_algorithms/vqe.ipynb)
+  - [ADAPT-VQE](notebooks/quantum_computing/quantum_algorithms/adapt_vqe.ipynb)
 
-- [Error Mitigation](notebooks/quantum_computing/error_mitigation.ipynb)
+- [Error Mitigation](notebooks/quantum_computing/quantum_algorithms/error_mitigation.ipynb)
 
 </details>
 
@@ -384,26 +414,26 @@
 <summary>Quantum Communication and Cryptography</summary>
  
 - Theorems
-  - [No-communication Theorem](notebooks/quantum_communication/no_communication.ipynb)
-  - [No-cloning Theorem](notebooks/quantum_communication/no_cloning.ipynb)
+  - [No-communication Theorem](notebooks/quantum_communication/theorems/no_communication.ipynb)
+  - [No-cloning Theorem](notebooks/quantum_communication/theorems/no_cloning.ipynb)
     - Theorem
     - Proof
     - Implications
     - Example
 
 - Quantum Communication Protocols
-  - [Quantum Teleportation](notebooks/quantum_communication/teleportation.ipynb)
+  - [Quantum Teleportation](notebooks/quantum_communication/communication/teleportation.ipynb)
     - Theory
     - Applications
     - Qiskit Implementation
-  - [Superdense Coding](notebooks/quantum_communication/superdense_coding.ipynb)
+  - [Superdense Coding](notebooks/quantum_communication/communication/superdense_coding.ipynb)
 
 - Quantum Cryptography Protocols
-  - [BB84](notebooks/quantum_communication/bb84.ipynb)
-  - [Ekert 91](notebooks/quantum_communication/ekert91.ipynb)
+  - [BB84](notebooks/quantum_communication/cryptography/bb84.ipynb)
+  - [Ekert 91](notebooks/quantum_communication/cryptography/ekert91.ipynb)
 
 - Frameworks for QKD
-  - [DI-QKD vs MDI-QKD](notebooks/quantum_communication/di_vs_mdi.ipynb)
+  - [DI-QKD vs MDI-QKD](notebooks/quantum_communication/qkd/di_vs_mdi.ipynb)
 
 </details>
 
