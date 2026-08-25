@@ -7,10 +7,9 @@
 <a href="https://www.sympy.org/en/index.html" target="_blank" rel="noopener noreferrer"><img src="https://github.com/camponogaraviera/logos/blob/main/assets/sympy.png" width="60"></a>
 <a href="https://pyscf.org/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/camponogaraviera/logos/blob/main/assets/pyscf.png" width="40"></a>
 <a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer"></a>
-&nbsp;
+
 <a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer">
 <picture>
-
 <!-- dark mode -->
 <source srcset="https://github.com/camponogaraviera/logos/blob/main/assets/qiskit_white.png" width="40" alt="Light Logo">
 <!-- light mode -->
@@ -18,6 +17,8 @@
 </picture>
 </a>
 <br>
+
+&nbsp;
 
 <!-- Badges -->
 
@@ -368,9 +369,17 @@
   - [Implementations](notebooks/quantum_computing/quantum_gates/implementations.ipynb)
 
 - Operator Decompositions
-  - [Pauli Decomposition](notebooks/quantum_computing/operator_decomposition/pauli_decomposition.ipynb)
-  - [Operator Schmidt Decomposition](notebooks/quantum_computing/operator_decomposition/operator_schmidt_decomposition.ipynb)
-  - [Linear Combination of Unitaries (LCU)](notebooks/quantum_computing/operator_decomposition/lcu.ipynb)
+  - Additive-based decompositions
+    - [Pauli Decomposition](notebooks/quantum_computing/operator_decomposition/pauli_decomposition.ipynb)
+    - [Operator Schmidt Decomposition](notebooks/quantum_computing/operator_decomposition/operator_schmidt_decomposition.ipynb)
+    - [Linear Combination of Unitaries (LCU)](notebooks/quantum_computing/operator_decomposition/lcu.ipynb)
+  - Product-based decompositions
+    - [Euler Decomposition](notebooks/quantum_computing/gate_decompositions/euler_decomposition.ipynb)
+      - Z-X-Z Decomposition
+      - Z-Y-Z Decomposition
+      - X-Y-X Decomposition
+      - X-Z-X Decomposition
+      - V-Z Decomposition
 
 - [Unitary/Circuit Synthesis](notebooks/quantum_computing/circuit_synthesis/circuit_synthesis.ipynb)
   - Introduction
@@ -379,12 +388,6 @@
   - Cosine-Sine Decomposition (CSD)
   - Quantum Shannon Decomposition (QSD)
   - Block ZXZ Decomposition
-
-- [Gate Decomposition](notebooks/quantum_computing/gate_decompositions/gate_decomposition.ipynb)
-  - Euler Decomposition
-    - Z-Y-Z Decomposition
-    - X-Y-X Decomposition
-    - V-Z Decomposition
 
 - Quantum Circuits
   - [Measurement in a Different Basis](notebooks/quantum_computing/quantum_circuits/change_of_basis.ipynb)
@@ -470,19 +473,9 @@ This work was sponsored by the [IBMQ Hub at NTU](https://quantum.ntu.edu.tw/).
 
 [4] Wolf, R. (2021). Quantum key distribution: An introduction with exercises. Springer. https://doi.org/10.1007/978-3-030-73991-1
 
-[5] [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+[5] [Qiskit documentation](https://docs.quantum.ibm.com/).
 
-[6] [Qiskit Documentation](https://docs.quantum.ibm.com/)
-
-[7] [Qiskit v2.0 Migration Guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0)
-
-[8] [IBM Quantum Platform](https://quantum.cloud.ibm.com/)
-
-Complementary materials:
-
-- [Upcoming and past events](https://www.ibm.com/quantum/events)
-
-- [Qiskit Global Summer School (QGSS) 2025](https://github.com/qiskit-community/qgss-2025/tree/main)
+[6] [Qiskit v2.0 migration guide](https://quantum.cloud.ibm.com/docs/en/migration-guides/qiskit-2.0).
 
 # License
 
